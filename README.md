@@ -8,15 +8,15 @@ Given historical demand data, forecast future demand to support:
   c. Supply chain optimization
 
 **Solution Approach:**
-  1. Data Preparation
+  1. Data Preparation:
     a. Sliding window technique for sequence generation
     b. Train / validation split
     c. Feature scaling
-  2. Modeling
+  2. Modeling:
     a. TensorFlow Sequential API
     b. Dense / LSTM-based neural networks
     c. Loss: Mean Absolute Error (MAE)
-  3. Evaluation
+  3. Evaluation:
     a. MAE / RMSE
     b. Visual comparison of actual vs predicted demand
 
